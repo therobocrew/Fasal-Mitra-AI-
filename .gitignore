@@ -1,22 +1,40 @@
+# Secrets
+.env
+.env.local
+*.env
+
 # Python
 __pycache__/
 *.pyc
-
-# Virtual Environment
+.venv/
 venv/
-.env
 
-# Jupyter
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Google Colab / Jupyter
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
+# Databases
+*.db
+*.sqlite
+postgres_data/
 
-# Large Models
-*.h5
+# Large imagery and models
+*.tif
+*.tiff
+*.SAFE
+*.zip
 *.pt
 *.pth
+*.pkl
+*.joblib
 
-# Data
-data/raw/
-data/processed/
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
